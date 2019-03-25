@@ -26,7 +26,7 @@ This is accomplished by:
 
 - Variable names are expanded to be more descriptive with gsub/sub
 
-- Created the second data set is done by using dplyr's group_by and summarize_all with the mean function to get the mean of each column.
+- Created the second data set is done by using dplyr's group_by and summarize_all with the mean function to get the mean of each column.  Each row represents the summary of the data when grouped by subject and activity.name
 
 Output locations: 
 - ./output.txt 
