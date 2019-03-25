@@ -24,8 +24,8 @@ Variable names are expanded to be more descriptive with gsub/sub
 
 Created the second data set is done by using dplyr's group_by and summarize_all with the mean function to get the mean of each column.
 
-Output locations:
-./output.txt
-./summary_output.txt
+Output locations: 
+- ./output.txt 
+- ./summary_output.txt 
 
 *If data set is not detected in the same directory as the script, it is downloaded/extracted as needed.
