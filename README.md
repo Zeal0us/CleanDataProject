@@ -2,7 +2,7 @@
 
 Produces 2 files based on requirements for the Course Project for Getting and Cleaning Data on Coursera.
 
-Variable descriptions can be found in codebook.md, a markdown file
+Variable descriptions can be found in [codebook.md](/codebook.md), a markdown file
 
 run_analysis.R does the following, per the instructions on Coursera:
 
