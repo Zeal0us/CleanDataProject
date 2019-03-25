@@ -12,17 +12,21 @@ run_analysis.R does the following, per the instructions on Coursera:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-First, the data files (i.e. X_train.txt, y_train.txt, subject_train.txt) are each merged into one table by reading in X data (i.e. X_train.txt), getting column names from features.txt, and adding the data from the subject and y files to the columns subject and activity.number.
 
-Merging of test and train data is accomplished with rbind
+This is accomplished by:
 
-Extraction of the wanted variables is done by using grep to get the column indexes that match the desired pattern
 
-Activity names are merged (using merge) from the activity_labels.txt file
+- First, the data files (i.e. X_train.txt, y_train.txt, subject_train.txt) are each merged into one table by reading in X data (i.e. X_train.txt), getting column names from features.txt, and adding the data from the subject and y files to the columns subject and activity.number.
 
-Variable names are expanded to be more descriptive with gsub/sub
+- Merging of test and train data is accomplished with rbind
 
-Created the second data set is done by using dplyr's group_by and summarize_all with the mean function to get the mean of each column.
+- Extraction of the wanted variables is done by using grep to get the column indexes that match the desired pattern
+
+- Activity names are merged (using merge) from the activity_labels.txt file
+
+- Variable names are expanded to be more descriptive with gsub/sub
+
+- Created the second data set is done by using dplyr's group_by and summarize_all with the mean function to get the mean of each column.
 
 Output locations: 
 - ./output.txt 
