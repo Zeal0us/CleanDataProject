@@ -37,3 +37,9 @@ Output can be read with
 input <- read.table('summary_output.txt',header=TRUE)
 ```
 *If data set is not detected in the same directory as the script, it is downloaded/extracted as needed.
+
+
+*tested by running the following from the R console (r.exe):
+``` R
+source('run_analysis.R')
+```
