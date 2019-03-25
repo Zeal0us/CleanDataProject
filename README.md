@@ -28,6 +28,8 @@ This is accomplished by:
 
 - Created the second data set is done by using dplyr's group_by and summarize_all with the mean function to get the mean of each column.  Each row represents the summary of the data when grouped by subject and activity.name
 
+- Data is tidy because each variable is descriptively named, all lower case, and uses . as a mental seperator for readability, and is easily read in with read.table() (header=TRUE should be set)
+
 Output locations: 
 - ./output.txt 
 - ./summary_output.txt 
