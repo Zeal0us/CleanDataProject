@@ -1,5 +1,7 @@
 Data was gathered by accelerometer and gyroscope while subjects were performing various activities.
 
+Additional description of the source data beyond this document can be found in the ReadMe packaged in the original source data.
+
 Time domain (starts with time.domain) data comes from accelerometer (body and gravity components) and gyroscope signals, split into X, Y, and Z axes, and magnitude.  Data pertaining to a specific axis ends with that component (i.e. time.domain.body.accelerometer.mean.x ends with x)
 
 A Fast Fourier Transform was applied to some of the signals to produce the frequency domain data (which starts with frequency.domain)
