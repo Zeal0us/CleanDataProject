@@ -32,4 +32,8 @@ Output locations:
 - ./output.txt 
 - ./summary_output.txt 
 
+Output can be read with 
+``` R
+input <- read.table('summary_output.txt',header=TRUE)
+```
 *If data set is not detected in the same directory as the script, it is downloaded/extracted as needed.
